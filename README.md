@@ -2,6 +2,7 @@
 
 A time management application developed as part of CSE 300 
 (Technical Communication) at Stony Brook University.
+Team member: Anderson, Daniel C, Hailey, Ying Yi, Megan
 
 ## About
 StopSigh is a student productivity app with a living mascot whose 
