@@ -1,11 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function App() {
   const [step, setStep] = useState(1);
-  const [page, setPage] = useState<"onboarding" | "home" | "detail" | "focus" | "leaderboard">("onboarding");
+  const [page, setPage] = useState<"onboarding" | "home" | "detail" | "focus" | "leaderboard" | "profile">("onboarding");
   const [activeTab, setActiveTab] = useState("home");
   const [timeLeft, setTimeLeft] = useState("");
   const [energy, setEnergy] = useState(20);
+  const [mascotImageFailed, setMascotImageFailed] = useState(false);
 
 const getCompanionState = (e: number) => {
   if (e >= 90) return { emoji: "🤩", status: "Thriving!", sub: "You're absolutely killing it!" };
@@ -16,8 +17,14 @@ const getCompanionState = (e: number) => {
 };
 
 const companion = getCompanionState(energy);
+const mascotMood = energy > 50 ? "happy" : "sad";
+const mascotImageSrc = mascotMood === "happy" ? "/mascot-happy.png" : "/mascot-sad.png";
 
-useState(() => {
+useEffect(() => {
+  setMascotImageFailed(false);
+}, [mascotMood]);
+
+useEffect(() => {
   const update = () => {
     const now = new Date();
     const due = new Date();
@@ -35,7 +42,7 @@ useState(() => {
   update();
   const timer = setInterval(update, 1000);
   return () => clearInterval(timer);
-});
+}, []);
 
 if (page === "leaderboard") {
   const players = [
@@ -92,7 +99,10 @@ if (page === "leaderboard") {
           { id: "home", icon: "🏠", label: "Home", action: () => { setActiveTab("home"); setPage("home"); } },
           { id: "deadlines", icon: "🏆", label: "Leaderboard", action: () => { setActiveTab("deadlines"); setPage("leaderboard"); } },
           { id: "focus", icon: "📷", label: "Focus", action: () => { setActiveTab("focus"); setPage("focus"); } },
-          { id: "profile", icon: "👤", label: "Profile", action: () => setActiveTab("profile") },
+          { id: "profile", icon: "👤", label: "Profile", action: () => {
+          setActiveTab("profile");
+          setPage("profile");
+        } },
         ].map((tab) => (
           <button key={tab.id} onClick={tab.action}
             className={`flex flex-col items-center gap-1 transition-colors ${activeTab === tab.id ? "text-blue-400" : "text-slate-500"}`}>
@@ -109,54 +119,73 @@ if (page === "leaderboard") {
 if (page === "focus") {
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-slate-900 to-blue-950 flex flex-col max-w-md mx-auto">
-
-      {/* Header */}
-      <div className="flex items-center gap-4 px-6 pt-12 pb-6">
-        <button onClick={() => { setPage("home"); setActiveTab("home"); }} className="text-slate-400 hover:text-white transition-colors">
+      <div className="flex items-center gap-4 px-4 pt-8 pb-4">
+        <button
+          onClick={() => {
+            setPage("home");
+            setActiveTab("home");
+          }}
+          className="text-slate-300 hover:text-white transition-colors"
+        >
           <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M19 12H5M12 5l-7 7 7 7" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M19 12H5M12 5l-7 7 7 7" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
         <div>
           <p className="text-white font-semibold text-lg">Focus Mode</p>
-          <p className="text-slate-400 text-xs mt-0.5">Stay on task 📷</p>
+          <p className="text-slate-400 text-xs mt-0.5">Powered by LOCK IN</p>
         </div>
       </div>
 
-      {/* Camera Preview */}
-      <div className="mx-6 mb-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 overflow-hidden aspect-square flex items-center justify-center">
-        <div className="flex flex-col items-center gap-3">
-          <span className="text-6xl">📷</span>
-          <p className="text-slate-400 text-sm">Camera access required</p>
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-xl text-sm hover:bg-blue-600 transition-colors">
-            Enable Camera
+      <div className="flex-1 px-4 pb-4">
+        <iframe
+          src="https://lock-in-aggressive-study-timer-73864895442.us-west1.run.app"
+          title="LOCK IN Focus Timer"
+          className="w-full h-full min-h-[80vh] rounded-2xl border border-slate-700/60 bg-black"
+          allow="camera; microphone; autoplay; fullscreen"
+          referrerPolicy="strict-origin-when-cross-origin"
+        />
+      </div>
+    </div>
+  );
+}
+
+if (page === "profile") {
+  return (
+    <div className="min-h-screen w-full bg-gradient-to-br from-slate-900 to-blue-950 flex flex-col max-w-md mx-auto">
+      <div className="px-6 pt-12 pb-6">
+        <p className="text-white font-semibold text-xl">Profile</p>
+        <p className="text-slate-400 text-xs mt-1">Your account and settings</p>
+      </div>
+
+      <div className="mx-6 space-y-3">
+        <div className="bg-slate-800/60 border border-slate-700/50 rounded-2xl px-4 py-4">
+          <p className="text-white text-sm font-medium">Name</p>
+          <p className="text-slate-300 text-sm mt-1">Hailey Zheng</p>
+        </div>
+        <div className="bg-slate-800/60 border border-slate-700/50 rounded-2xl px-4 py-4">
+          <p className="text-white text-sm font-medium">Email</p>
+          <p className="text-slate-300 text-sm mt-1">hailey@stonybrook.edu</p>
+        </div>
+      </div>
+
+      <div className="mt-auto border-t border-slate-700/50 bg-slate-900/80 px-6 py-4 flex justify-around">
+        {[
+          { id: "home", icon: "🏠", label: "Home", action: () => { setActiveTab("home"); setPage("home"); } },
+          { id: "deadlines", icon: "🏆", label: "Leaderboard", action: () => { setActiveTab("deadlines"); setPage("leaderboard"); } },
+          { id: "focus", icon: "📷", label: "Focus", action: () => { setActiveTab("focus"); setPage("focus"); } },
+          { id: "profile", icon: "👤", label: "Profile", action: () => {
+            setActiveTab("profile");
+            setPage("profile");
+          } },
+        ].map((tab) => (
+          <button key={tab.id} onClick={tab.action}
+            className={`flex flex-col items-center gap-1 transition-colors ${activeTab === tab.id ? "text-blue-400" : "text-slate-500"}`}>
+            <span className="text-xl">{tab.icon}</span>
+            <span className="text-xs">{tab.label}</span>
           </button>
-        </div>
+        ))}
       </div>
-
-      {/* Timer */}
-      <div className="mx-6 mb-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 p-6 flex flex-col items-center">
-        <p className="text-slate-400 text-xs uppercase tracking-widest mb-3">Focus Time</p>
-        <p className="text-white text-6xl font-mono font-bold mb-6">25:00</p>
-        <div className="flex gap-3">
-          <button className="px-6 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition-colors font-medium">
-            Start
-          </button>
-          <button className="px-6 py-3 bg-slate-700 text-white rounded-xl hover:bg-slate-600 transition-colors font-medium">
-            Reset
-          </button>
-        </div>
-      </div>
-
-      {/* StopSigh Status */}
-      <div className="mx-6 mb-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 p-4 flex items-center gap-4">
-        <span className="text-4xl">🐺</span>
-        <div>
-          <p className="text-white text-sm font-medium">I'm watching you... 👀</p>
-          <p className="text-slate-400 text-xs">Stay focused and I'll be happy!</p>
-        </div>
-      </div>
-
     </div>
   );
 }
@@ -232,7 +261,7 @@ if (page === "detail") {
 
   if (page === "home") {
     return (
-      <div className="min-h-screen w-full bg-gradient-to-br from-slate-900 to-blue-950 flex flex-col max-w-md mx-auto">
+      <div className="h-[100dvh] w-full overflow-hidden bg-gradient-to-br from-slate-900 to-blue-950 flex flex-col max-w-md mx-auto">
 
         {/* Top Bar */}
         <div className="flex items-center justify-between px-6 pt-12 pb-4">
@@ -254,6 +283,7 @@ if (page === "detail") {
           </div>
         </div>
 
+        <div className="flex-1 min-h-0 overflow-y-auto pb-4">
         {/* Character Card */}
 <div className="mx-6 mb-6 rounded-2xl bg-slate-800/60 border border-slate-700/50 p-6 flex flex-col items-center">
   
@@ -268,8 +298,22 @@ if (page === "detail") {
     </div>
   </div>
 
-  {/* Companion */}
-<div className="text-8xl mb-3">{companion.emoji}</div>
+  {/* Mascot Image Placeholder */}
+<div className="mb-3 w-36 h-36 rounded-2xl border border-slate-600/60 bg-slate-900/70 flex items-center justify-center overflow-hidden">
+  {!mascotImageFailed ? (
+    <img
+      src={mascotImageSrc}
+      alt={`Mascot ${mascotMood}`}
+      className="w-full h-full object-cover"
+      onError={() => setMascotImageFailed(true)}
+    />
+  ) : (
+    <div className="text-center px-3">
+      <div className="text-5xl mb-2">{companion.emoji}</div>
+      <p className="text-[10px] uppercase tracking-widest text-slate-400">Add {mascotImageSrc}</p>
+    </div>
+  )}
+</div>
 
 {/* Status Text */}
 <p className="text-white text-base text-center font-medium">{companion.status}</p>
@@ -331,14 +375,18 @@ if (page === "detail") {
             <p className="text-orange-400 font-semibold text-sm">3 days 🔥</p>
           </div>
         </div>
+        </div>
 
         {/* Bottom Nav */}
-        <div className="mt-auto border-t border-slate-700/50 bg-slate-900/80 px-6 py-4 flex justify-around">
+        <div className="border-t border-slate-700/50 bg-slate-900/80 px-6 py-4 flex justify-around">
   {[
     { id: "home", icon: "🏠", label: "Home", action: () => { setActiveTab("home"); setPage("home"); } },
     { id: "deadlines", icon: "🏆", label: "Leaderboard", action: () => { setActiveTab("deadlines"); setPage("leaderboard"); } },
     { id: "focus", icon: "📷", label: "Focus", action: () => { setActiveTab("focus"); setPage("focus"); } },
-    { id: "profile", icon: "👤", label: "Profile", action: () => setActiveTab("profile") },
+    { id: "profile", icon: "👤", label: "Profile", action: () => {
+        setActiveTab("profile");
+        setPage("profile");
+      } },
   ].map((tab) => (
     <button
       key={tab.id}

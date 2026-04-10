@@ -1,0 +1,166 @@
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4364276,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764035725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4363275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764036725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4363275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764036725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 43s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764036726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4362275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764037725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4361275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764038725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4361275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764038725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 41s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764038728,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4360276,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764039725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4359276,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764040724,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4359276,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764040724,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 39s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764040725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4355275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764044725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4355274,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764044726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 35s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764044726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4352542,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764047458,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4352537,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764047463,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 32s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764047463,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4352265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764047735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4351920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764048080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4351265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764048735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 31s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764048735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4350919,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764049081,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4350265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764049735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 30s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764049736,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4349920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764050080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4349265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764050735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 29s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764050735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4348919,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764051081,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4348265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764051735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 28s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764051735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4347919,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764052081,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4347265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764052735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 27s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764052736,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4346920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764053080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4346265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764053735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 26s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764053736,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4345919,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764054081,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4345265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764054735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 25s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764054735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4344920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764055080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4344265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764055735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 24s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764055736,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4343920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764056080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4343265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764056735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 23s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764056735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4342920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764057080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4342265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764057735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 22s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764057735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4341919,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764058081,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4341265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764058735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 21s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764058736,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4340919,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764059081,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4340265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764059735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 20s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764059735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4339919,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764060081,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4339265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764060735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 19s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764060736,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4338919,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764061081,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4338265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764061735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 18s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764061735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4337920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764062080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4337265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764062735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 17s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764062735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4336920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764063080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4336265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764063735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 16s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764063738,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4335920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764064080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4335265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764064735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 15s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764064735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4334920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764065080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4334265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764065735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 14s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764065736,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4333920,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764066080,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerLazyInit","message":"timer useState lazy init entered","data":{"hypothesisId":"H1"},"timestamp":1775764066714,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4333286,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764066714,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764066714,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 13s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764066714,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4332285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764067715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 12s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764067716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4331286,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764068714,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 11s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764068715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4330285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764069715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 10s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764069716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4329285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764070716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 9s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764070716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4328284,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764071716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 8s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764071717,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4327285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764072715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 7s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764072717,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:profileNavHome","message":"profile tab clicked","data":{"pageBefore":"home","hypothesisId":"H3"},"timestamp":1775764073273,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:profileStateEffect","message":"profile tab state snapshot","data":{"activeTab":"profile","page":"profile","hypothesisId":"H3"},"timestamp":1775764073275,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4326285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764073715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 6s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764073716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4325284,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764074716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 5s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764074716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4324285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764075715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 4s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764075716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4323286,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764076714,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 3s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764076716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4322285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764077715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 2s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764077716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4321285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764078715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 1s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764078716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4320285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764079715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 12m 0s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764079717,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4319285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764080715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 59s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764080715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4318284,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764081716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 58s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764081717,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4317285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764082715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 57s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764082717,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4316284,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764083716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 56s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764083717,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4315284,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764084716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 55s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764084717,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4314284,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764085716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 54s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764085718,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4313285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764086715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 53s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764086716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4312285,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764087715,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 52s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764087716,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4311269,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764088731,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 51s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764088734,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4310265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764089735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 50s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764089746,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4309271,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764090729,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 49s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764090734,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4308265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764091735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 48s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764091740,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4307265,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764092735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 47s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764092738,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4306269,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764093731,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 46s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764093733,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4305272,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764094728,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 45s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764094735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4304268,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764095732,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 44s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764095735,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4303267,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764096733,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 43s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764096734,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4302275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764097725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 42s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764097726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4301275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764098725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 41s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764098726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4300275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764099725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 40s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764099725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4299276,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764100724,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 39s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764100726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4298275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764101725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 38s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764101726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4297275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764102725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 37s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764102725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4296275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764103725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 36s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764103726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4295274,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764104726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 35s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764104727,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4294275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764105725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 34s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764105726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4293275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764106725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 33s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764106726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4292275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764107725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 32s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764107726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4291275,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764108725,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 31s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764108726,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timerUpdate","message":"timer tick","data":{"diff":4290276,"overdue":false,"hypothesisId":"H2"},"timestamp":1775764109724,"runId":"pre-fix"}
+{"sessionId":"911cf4","location":"App.tsx:timeLeftEffect","message":"timeLeft state snapshot","data":{"timeLeft":"1h 11m 30s","typeofTimeLeft":"string","hypothesisId":"H1"},"timestamp":1775764109727,"runId":"pre-fix"}
