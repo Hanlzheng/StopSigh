@@ -118,8 +118,8 @@ if (page === "leaderboard") {
 
 if (page === "focus") {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-slate-900 to-blue-950 flex flex-col max-w-md mx-auto">
-      <div className="flex items-center gap-4 px-4 pt-8 pb-4">
+    <div className="h-[100dvh] min-h-0 w-full bg-gradient-to-br from-slate-900 to-blue-950 flex flex-col max-w-4xl mx-auto">
+      <div className="flex shrink-0 items-center gap-4 px-4 pt-8 pb-4">
         <button
           onClick={() => {
             setPage("home");
@@ -137,11 +137,11 @@ if (page === "focus") {
         </div>
       </div>
 
-      <div className="flex-1 px-4 pb-4">
+      <div className="flex-1 min-h-0 px-4 pb-4">
         <iframe
           src="https://lock-in-aggressive-study-timer-73864895442.us-west1.run.app"
           title="LOCK IN Focus Timer"
-          className="w-full h-full min-h-[80vh] rounded-2xl border border-slate-700/60 bg-black"
+          className="block h-full w-full min-h-[calc(100dvh-8rem)] rounded-2xl border border-slate-700/60 bg-black"
           allow="camera; microphone; autoplay; fullscreen"
           referrerPolicy="strict-origin-when-cross-origin"
         />
