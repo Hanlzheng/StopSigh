@@ -13,16 +13,22 @@ const getCompanionState = (e: number) => {
   if (e >= 70) return { emoji: "😊", status: "Content & encouraging", sub: "You're doing well, keep it up!" };
   if (e >= 50) return { emoji: "😟", status: "Worried & fidgeting...", sub: "You're falling behind a little..." };
   if (e >= 30) return { emoji: "😢", status: "Sad & withdrawn", sub: "I'm not happy with this..." };
-  return { emoji: "😵", status: "Exhausted & depressed", sub: "Please... do something..." };
+  if (e > 0) return { emoji: "😵", status: "Exhausted & depressed", sub: "Please... do something..." };
+  return { emoji: "💀", status: "Gone.", sub: "Siggy didn't make it." };
 };
 
+const isSiggyDead = energy === 0;
 const companion = getCompanionState(energy);
-const mascotMood = energy > 50 ? "happy" : "sad";
+const mascotMood = isSiggyDead ? "dead" : energy > 50 ? "happy" : "sad";
 const mascotImageSrc = mascotMood === "happy" ? "/mascot-happy.png" : "/mascot-sad.png";
 
 useEffect(() => {
   setMascotImageFailed(false);
 }, [mascotMood]);
+
+const reviveSiggy = () => {
+  setEnergy(65);
+};
 
 useEffect(() => {
   const update = () => {
@@ -118,8 +124,8 @@ if (page === "leaderboard") {
 
 if (page === "focus") {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-slate-900 to-blue-950 flex flex-col max-w-md mx-auto">
-      <div className="flex items-center gap-4 px-4 pt-8 pb-4">
+    <div className="h-[100dvh] min-h-0 w-full bg-gradient-to-br from-slate-900 to-blue-950 flex flex-col max-w-4xl mx-auto">
+      <div className="flex shrink-0 items-center gap-4 px-4 pt-8 pb-4">
         <button
           onClick={() => {
             setPage("home");
@@ -137,11 +143,11 @@ if (page === "focus") {
         </div>
       </div>
 
-      <div className="flex-1 px-4 pb-4">
+      <div className="flex-1 min-h-0 px-4 pb-4">
         <iframe
           src="https://lock-in-aggressive-study-timer-73864895442.us-west1.run.app"
           title="LOCK IN Focus Timer"
-          className="w-full h-full min-h-[80vh] rounded-2xl border border-slate-700/60 bg-black"
+          className="block h-full w-full min-h-[calc(100dvh-8rem)] rounded-2xl border border-slate-700/60 bg-black"
           allow="camera; microphone; autoplay; fullscreen"
           referrerPolicy="strict-origin-when-cross-origin"
         />
@@ -300,7 +306,11 @@ if (page === "detail") {
 
   {/* Mascot Image Placeholder */}
 <div className="mb-3 w-36 h-36 rounded-2xl border border-slate-600/60 bg-slate-900/70 flex items-center justify-center overflow-hidden">
-  {!mascotImageFailed ? (
+  {isSiggyDead ? (
+    <span className="text-7xl leading-none select-none" role="img" aria-label="Dead">
+      💀
+    </span>
+  ) : !mascotImageFailed ? (
     <img
       src={mascotImageSrc}
       alt={`Mascot ${mascotMood}`}
@@ -319,6 +329,25 @@ if (page === "detail") {
 <p className="text-white text-base text-center font-medium">{companion.status}</p>
 <p className="text-slate-400 text-sm text-center mt-1">{companion.sub}</p>
 
+{isSiggyDead && (
+  <div className="w-full mt-5 space-y-2">
+    <button
+      type="button"
+      onClick={reviveSiggy}
+      className="w-full rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 px-4 py-3 text-sm font-semibold text-white shadow-lg transition hover:from-blue-400 hover:to-purple-500"
+    >
+      Revive Siggy — Pay $9.99
+    </button>
+    <button
+      type="button"
+      onClick={reviveSiggy}
+      className="w-full rounded-xl border border-slate-600 bg-slate-800/80 px-4 py-3 text-sm font-medium text-slate-200 transition hover:border-slate-500 hover:bg-slate-800"
+    >
+      Or pass your midterm (free)
+    </button>
+  </div>
+)}
+
 </div>
 <div className="mx-6 mb-4">
   <input 
@@ -327,7 +356,9 @@ if (page === "detail") {
     max="100" 
     value={energy}
     onChange={(e) => setEnergy(Number(e.target.value))}
-    className="w-full"
+    disabled={isSiggyDead}
+    aria-disabled={isSiggyDead}
+    className={`w-full transition-opacity ${isSiggyDead ? "cursor-not-allowed opacity-40 pointer-events-none" : ""}`}
   />
 </div>
         {/* Deadlines */}

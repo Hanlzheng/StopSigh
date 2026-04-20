@@ -1,0 +1,3 @@
+[submodule "LOCK-IN-Timer"]
+	path = LOCK-IN-Timer
+	url = https://github.com/TheAndyPi/LOCK-IN-Timer.git
